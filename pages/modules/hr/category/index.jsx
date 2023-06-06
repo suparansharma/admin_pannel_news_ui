@@ -99,27 +99,27 @@ const ManageCategories = () => {
     //Delete Subject
     const handleDelete = async (id) => {
 
-       
 
-    const deleteClass = await del(CATEGORIE_END_POINT.delete(id))
-console.log(deleteClass);
-let isSubscribed = true;
 
-if (deleteClass.status === "SUCCESS") {
-    notify("success", "successfully deleted!");
-    handleExitDelete();
-    setPending(false);
+        const deleteClass = await del(CATEGORIE_END_POINT.delete(id))
+        console.log(deleteClass);
+        let isSubscribed = true;
 
-}
-else {
-    notify("error", "something went wron");
-}
+        if (deleteClass.deletedCount > 0) {
+            notify("success", "successfully deleted!");
+            handleExitDelete();
+            setPending(false);
 
-fetchCategoryList();
-return () => isSubscribed = false;
- 
+        }
+        else {
+            notify("error", "something went wron");
+        }
 
-   
+        fetchCategoryList();
+        return () => isSubscribed = false;
+
+
+
 
 
     }
