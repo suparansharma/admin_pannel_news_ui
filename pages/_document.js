@@ -1,19 +1,3 @@
-// import { Html, Head, Main, NextScript } from 'next/document'
-
-// export default function Document() {
-//   return (
-//     <Html lang="en">
-//       <Head />
-//       <body>
-//         <Main />
-//         <NextScript />
-//       </body>
-//     </Html>
-//   )
-// }
-
-
-
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -43,7 +27,7 @@ class MyDocument extends Document {
             content="managebeds,hotel-management,hotel,hospitality,datahost-it" />
         <meta name="description" content="Managebeds hospitality management solution for all property types. 2022 Best PMS, Best Hotel Software, Top 10 Hotelier’s Choice, and more." />
         <meta name="robots" content="noindex,nofollow" />
-        <title>Managebeds</title>
+        <title>News Portal</title>
 
         
         <link rel="canonical" href="http://194.233.78.193/" />
@@ -69,11 +53,6 @@ class MyDocument extends Document {
         {/* bootstrap cdn */}
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
 
-        {/* <link
-          href="/assets/libs/bootstrap-table/dist/bootstrap-table.min.css"
-          rel="stylesheet"
-          type="text/css"
-        /> */}
 
 
 
@@ -82,44 +61,37 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
 
-        <script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+        <script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js" async/>
+        <script src="/assets/libs/jquery/dist/jquery.min.js"defer/>
 
        
-        <script src="/dist/js/app.min.js"></script>
-        <script src="/dist/js/app.init.js"></script>
+        <script src="/dist/js/app.min.js"defer/>
+        <script src="/dist/js/app.init.js"defer/>
     
-        <script src="/dist/js/app-style-switcher.js"></script>
+        <script src="/dist/js/app-style-switcher.js"defer/>
 
-        <script src="/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-        <script src="/assets/extra-libs/sparkline/sparkline.js"></script>
+        <script src="/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"defer/>
+        <script src="/assets/extra-libs/sparkline/sparkline.js"defer/>
 
 
-        <script src="/dist/js/waves.js"></script>
+        <script src="/dist/js/waves.js"defer/>
 
-        <script src="/dist/js/sidebarmenu.js"></script>
+        <script src="/dist/js/sidebarmenu.js"defer/>
 
-        <script src="/dist/js/feather.min.js"></script>
+        <script src="/dist/js/feather.min.js"defer/>
 
-        <script src="/dist/js/custom.min.js"></script>
+        <script src="/dist/js/custom.min.js"defer/>
 
         {/* ContactList Page plugin */}
-        <script src="/dist/js/pages/contact/contact.js"></script>
+        <script src="/dist/js/pages/contact/contact.js"defer/>
 
         {/* Datatable Plugin */}
-        <script src="/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
-        <script src="/assets/extra-libs/datatables.net-bs4/js/dataTables.responsive.min.js"></script>
-        <script src="/dist/js/pages/datatable/datatable-basic.init.js"></script>
+        <script src="/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"defer/>
+        <script src="/assets/extra-libs/datatables.net-bs4/js/dataTables.responsive.min.js"defer/>
+        <script src="/dist/js/pages/datatable/datatable-basic.init.js"defer/>
 
         {/* bootstrap switch button */}
-        <script src="/assets/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
-
-        {/* <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
-        <script src="/assets/libs/bootstrap-table/dist/bootstrap-table.min.js"></script>
-        <script src="/assets/libs/bootstrap-table/dist/bootstrap-table-locale-all.min.js"></script>
-        <script src="/assets/libs/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js"></script>
-        <script src="/dist/js/pages/tables/bootstrap-table.init.js"></script> */}
-
+        <script src="/assets/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js"defer/>
 
         </body>
       </Html>

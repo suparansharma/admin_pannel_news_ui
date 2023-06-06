@@ -1,5 +1,5 @@
 export const CATEGORIE_END_POINT = {
-    create: () => `/user`,
+    create: () => `/category`,
     get: () => `/category`,
     info: (id) => `/category/${id}`,
     update: (id) => `/category/${id}`,

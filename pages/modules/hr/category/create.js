@@ -40,33 +40,6 @@ const Categories = () => {
     e.preventDefault();
     const body = { ...categorieDetails};
     const response = await post(CATEGORIE_END_POINT.create(), body);
-
-
-//     fetch("http://localhost:5000/user",
-// {
-//     headers: {
-//       'Accept': 'application/json',
-//       'Content-Type': 'application/json'
-//     },
-//     method: "POST",
-//     body: JSON.stringify({categorieDetails})
-// })
-// .then(function(res){ console.log(res) })
-// .catch(function(res){ console.log(res) })
-
-
-// axios.post('http://localhost:5000/user', {
-//   {categorieDetails}
-// })
-// .then(function (response) {
-//   console.log(response);
-// })
-// .catch(function (error) {
-//   console.log(error);
-// });
-
-
-
   }
 
   return (

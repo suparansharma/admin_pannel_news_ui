@@ -16,7 +16,7 @@ const NavBar = () => {
             <a to="/">
               <a className="navbar-brand">
                 <span className="logo-text">
-                  <h3 className="fw-bolder mb-0">Managebeds</h3>
+                  <h3 className="fw-bolder mb-0">News Portal</h3>
                 </span>
               </a>
             </a>
@@ -44,24 +44,8 @@ const NavBar = () => {
             </ul>
 
             <ul className="navbar-nav justify-content-end">
-              <li className="nav-item ">
-                <a href="/modules/roomManagement/RoomDashboard">
-                  <a className="nav-link">
-                    <button type="button" className="btn btn-sm btn-info">
-                      Room Dashboard
-                    </button>
-                  </a>
-                </a>
-              </li>
-              <li className="nav-item ">
-                <a href="/modules/roomManagement/roomPrice">
-                  <a className="nav-link">
-                    <button type="button" className="btn btn-sm btn-info">
-                      Rates and Availability
-                    </button>
-                  </a>
-                </a>
-              </li>
+            
+
 
               <li className="nav-item d-none d-md-block search-box">
                 <a
